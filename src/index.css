@@ -3,14 +3,13 @@
 @tailwind utilities;
 
 
-/* styles.css or App.css */
-
 /* Default styles (Desktop view) */
 .main-content {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   padding: 1rem;
+  width: 62.5rem;
 }
 
 .note-input-container,
@@ -18,11 +17,11 @@
   display: flex;
   align-items: center;
   position: relative;
-  width: 100%;
+  width: 61rem;
 }
 
 .note-input {
-  width: 100%;
+  width: 59rem;
   padding: 1rem;
   box-sizing: border-box;
 }

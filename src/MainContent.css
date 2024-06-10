@@ -5,6 +5,10 @@
   flex-direction: column;
 }
 
+#banner-img{
+  height: 22rem;
+}
+
 #pn{
   font-weight: 900;
 }
