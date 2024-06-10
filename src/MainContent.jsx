@@ -4,6 +4,8 @@ import AvatarFallback from './components/ui/AvatarFallback';
 import Textarea from './components/ui/Textarea';
 import Button from './components/ui/Button';
 import NoteItem from './NoteItem';
+import preview1 from './assets/preview1.png';
+import './MainContent.css';
 
 const MainContent = ({ group, notes, onAddNote, onBack }) => {
   const [newNoteContent, setNewNoteContent] = useState("");
@@ -61,7 +63,18 @@ const MainContent = ({ group, notes, onAddNote, onBack }) => {
           </div>
         </>
       ) : (
-        <p>Please select a group to view notes.</p>
+        <>
+        <img src={preview1} alt='banner'/>
+
+        <div className='banner-content'>
+        <h1 id='pn'>POCKET NOTES</h1><br/>
+          <p>Please select a group to view notes.</p><br/>
+          <p>Send and receive messages without keeping your phone online.<br/>
+          Use Pocket Notes on up to 4 linked devices and 1 mobile phone.</p><br/>
+        </div>
+
+        </>
+        
       )}
     </main>
   );

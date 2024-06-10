@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Sidebar from './Sidebar';
 import MainContent from './MainContent';
 import NewGroupPopup from './NewGroupPopup';
+import './App.css';
 
 export default function App() {
   const [groups, setGroups] = useState([]);

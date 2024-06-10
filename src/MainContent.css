@@ -1,0 +1,14 @@
+.banner-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#pn{
+  font-weight: 900;
+}
+
+.main-content{
+  background-color: #F7ECDC;
+}
